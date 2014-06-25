@@ -8,6 +8,16 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```ObjectiveC
+    // Returns value for provided ID.
+    + (NSString *)valueById:(NSString *)keyChainId;
+    // Creates or updates new item with the provided value and ID.
+    + (void)updateValue:(id)value withId:(NSString *)keyChainId;
+    // Remove all items.
+    + (void)clearKeychain;
+
+```
+
 ## Requirements
 
 ## Installation
