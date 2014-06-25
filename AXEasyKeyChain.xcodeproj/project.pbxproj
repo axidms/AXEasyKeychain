@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43796ECC195B70E300B07523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43796ECB195B70E300B07523 /* Foundation.framework */; };
+		43796EF3195B717500B07523 /* AXEasyKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43796EF2195B717500B07523 /* AXEasyKeychainWrapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43796EC6195B70E200B07523 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		43796EC8195B70E300B07523 /* libAXEasyKeyChain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAXEasyKeyChain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43796ECB195B70E300B07523 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43796ED9195B70E300B07523 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		43796EDC195B70E300B07523 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		43796EF1195B717500B07523 /* AXEasyKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AXEasyKeychainWrapper.h; path = Classes/ios/AXEasyKeychainWrapper.h; sourceTree = SOURCE_ROOT; };
+		43796EF2195B717500B07523 /* AXEasyKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AXEasyKeychainWrapper.m; path = Classes/ios/AXEasyKeychainWrapper.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43796EC5195B70E200B07523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43796ECC195B70E300B07523 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43796EBF195B70E200B07523 = {
+			isa = PBXGroup;
+			children = (
+				43796ECD195B70E300B07523 /* AXEasyKeyChain */,
+				43796ECA195B70E300B07523 /* Frameworks */,
+				43796EC9195B70E300B07523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43796EC9195B70E300B07523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43796EC8195B70E300B07523 /* libAXEasyKeyChain.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43796ECA195B70E300B07523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43796ECB195B70E300B07523 /* Foundation.framework */,
+				43796ED9195B70E300B07523 /* XCTest.framework */,
+				43796EDC195B70E300B07523 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43796ECD195B70E300B07523 /* AXEasyKeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				43796EF1195B717500B07523 /* AXEasyKeychainWrapper.h */,
+				43796EF2195B717500B07523 /* AXEasyKeychainWrapper.m */,
+			);
+			path = AXEasyKeyChain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43796EC7195B70E200B07523 /* AXEasyKeyChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43796EEB195B70E300B07523 /* Build configuration list for PBXNativeTarget "AXEasyKeyChain" */;
+			buildPhases = (
+				43796EC4195B70E200B07523 /* Sources */,
+				43796EC5195B70E200B07523 /* Frameworks */,
+				43796EC6195B70E200B07523 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AXEasyKeyChain;
+			productName = AXEasyKeyChain;
+			productReference = 43796EC8195B70E300B07523 /* libAXEasyKeyChain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43796EC0195B70E200B07523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AxidSoft;
+			};
+			buildConfigurationList = 43796EC3195B70E200B07523 /* Build configuration list for PBXProject "AXEasyKeyChain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43796EBF195B70E200B07523;
+			productRefGroup = 43796EC9195B70E300B07523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43796EC7195B70E200B07523 /* AXEasyKeyChain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43796EC4195B70E200B07523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43796EF3195B717500B07523 /* AXEasyKeychainWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43796EE9195B70E300B07523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43796EEA195B70E300B07523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43796EEC195B70E300B07523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AXEasyKeyChain.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		43796EED195B70E300B07523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AXEasyKeyChain.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43796EC3195B70E200B07523 /* Build configuration list for PBXProject "AXEasyKeyChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43796EE9195B70E300B07523 /* Debug */,
+				43796EEA195B70E300B07523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43796EEB195B70E300B07523 /* Build configuration list for PBXNativeTarget "AXEasyKeyChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43796EEC195B70E300B07523 /* Debug */,
+				43796EED195B70E300B07523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43796EC0195B70E200B07523 /* Project object */;
+}
