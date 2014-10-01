@@ -15,5 +15,11 @@
 + (void)updateValue:(id)value withId:(NSString *)keyChainId;
 // Remove all items.
 + (void)clearKeychain;
+// Returns dictionary for provided ID.
++ (NSDictionary *)dictionaryById:(NSString *)keyChainId;
+// Creates or updates new item for key with the provided value and ID.
++ (void)updateValue:(NSString *)value forKey:(NSString *)aKey withId:(NSString *)keyChainId;
+// Remove value with key and ID.
++ (void)removeValueByKey:(NSString *)aKey withId:(NSString *)keyChainId;
 
 @end
