@@ -26,6 +26,26 @@ Remove all items:
 	[AXEasyKeychainWrapper clearKeychain];
 ```
 
+Creates or update key value pairs with the provided ID:
+
+```ObjectiveC
+	[AXEasyKeychainWrapper updateValue:@"value" forKey:@"key1" withId:@"DictionaryKeychainId"];
+	[AXEasyKeychainWrapper updateValue:@"value" forKey:@"key2" withId:@"DictionaryKeychainId"];
+	[AXEasyKeychainWrapper updateValue:@"value" forKey:@"key3" withId:@"DictionaryKeychainId"];
+```
+
+Returns dictionary for provided ID:
+
+```ObjectiveC
+	NSDictionary *dictionary = [AXEasyKeychainWrapper dictionaryById:@"DictionaryKeychainId"]
+```
+
+Remove value by key and for provided ID:
+
+```ObjectiveC
+	[AXEasyKeychainWrapper removeValueByKey:@"key2" withId:@"DictionaryKeychainId"]
+```
+
 ## Requirements
 
 ## Installation
